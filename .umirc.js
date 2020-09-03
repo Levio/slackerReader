@@ -15,7 +15,7 @@ export default {
       {
         antd: false,
         dva: false,
-        dynamicImport: { webpackChunkName: true },
+        dynamicImport: false,
         title: 'slackerReader',
         dll: false,
 

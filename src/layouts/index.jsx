@@ -1,5 +1,6 @@
 import styles from './index.less';
 import { headerList } from './config';
+import Sider from './components/Sider/Sider';
 
 function BasicLayout(props) {
   return (
@@ -15,7 +16,7 @@ function BasicLayout(props) {
         })}
       </div>
       <div className={styles.body}>
-        <div className={styles['sider-bar']}></div>
+        <Sider></Sider>
         <div className={styles['file-list-box']}></div>
         <div className={styles.main}></div>
       </div>

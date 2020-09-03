@@ -1,3 +1,6 @@
+/**
+ * 头部操作栏目
+ */
 export const headerList = [
   {
     key: 'file',
