@@ -1,0 +1,58 @@
+@import '~@/styles/config/index.less';
+@import '~@/styles/mixin/index.less';
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  background-color: @main-bg-color;
+  .flex-start;
+  flex-direction: column;
+}
+.header {
+  .flex-start;
+  height: 30px;
+  width: 100%;
+  background-color: @sider-bg-color;
+  border-bottom: 1px solid @border-color;
+}
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+}
+.header-item {
+  padding: 0 10px;
+  color: @font-color;
+  font-size: 12px;
+  height: 30px;
+  cursor: default;
+  line-height: 30px;
+  &:hover {
+    background-color: @hover-bg-color;
+  }
+}
+
+.body {
+  .flex-start;
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+}
+.sider-bar {
+  background-color: @sider-bg-color;
+  width: 50px;
+  height: 100%;
+}
+.file-list-box {
+  background-color: @file-box-bg-color;
+  width: 300px;
+  height: 100%;
+}
+.main {
+  flex: 1;
+  height: 100%;
+}
