@@ -43,3 +43,56 @@ export const headerList = [
     shortcut: 'H',
   },
 ];
+
+export const sideTopList = [
+  {
+    key: 'file',
+    icon: 'icon-file-white',
+    active: true,
+  },
+  {
+    key: 'search',
+    icon: 'icon-tubiaodansechangyongsousuozuo',
+    size: 24,
+  },
+  {
+    key: 'branch',
+    icon: 'icon-branches',
+    size: 24,
+  },
+  {
+    key: 'debugger',
+    icon: 'icon-debug-alt',
+  },
+  {
+    key: 'plugins',
+    icon: 'icon-zujianicon',
+  },
+];
+
+export const sideBottomList = [
+  {
+    key: 'me',
+    icon: 'icon-me',
+  },
+  {
+    key: 'setting',
+    icon: 'icon-shezhi',
+    size: 24,
+  },
+];
+
+export const tabList = [
+  {
+    name: 'index.tsx',
+    active: false,
+  },
+  {
+    name: 'Menu.tsx',
+    active: true,
+  },
+  {
+    name: 'config.ts',
+    active: false,
+  },
+];

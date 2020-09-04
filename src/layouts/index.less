@@ -19,7 +19,13 @@ body {
   background-color: @sider-bg-color;
   border-bottom: 1px solid @border-color;
 }
-
+.window-opt {
+  margin-left: auto;
+  font-size: 12px;
+  & > span {
+    margin: 0 10px;
+  }
+}
 .header-icon {
   width: 30px;
   height: 30px;
@@ -46,12 +52,36 @@ body {
   overflow: hidden;
 }
 
-.file-list-box {
-  background-color: @file-box-bg-color;
-  width: 300px;
-  height: 100%;
-}
 .main {
   flex: 1;
   height: 100%;
+  .flex-start;
+  flex-direction: column;
+}
+.main-tab {
+  .flex-start;
+  width: 100%;
+  background-color: @tab-box-bg-color;
+}
+.tab {
+  padding: 4px 20px;
+  background-color: @tab-normal-bg-color;
+  color: @font-color;
+}
+.active {
+  background-color: @tab-active-bg-color;
+  color: #fff;
+}
+.sourcemap {
+  width: 100%;
+  color: @font-color;
+  font-size: 12px;
+  padding: 2px 20px;
+  box-shadow: 0 1px 2px 1px #000000af;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  width: 100%;
+  overflow: auto;
 }
